@@ -1,0 +1,469 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrapper {
+    float: left;
+    width: 100%;
+}
+.main-header {
+    float: left;
+    width: 100%;
+    background-color: #ffffff63;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.main-banner {
+    float: left;
+    width: 100%;
+    min-height: 550px;
+    background-image: url(../imgs/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.main-banner::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    background: #000000a3;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+}
+.top-header {
+    float: left;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+}
+.logo {
+    float: left;
+    display: block;
+}
+.logo h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 0%;
+    font-style: oblique;
+}
+
+.logo h1 span{
+    color: #a25a00;
+}
+.quote-wrap {
+    float: right;
+}
+.quote-wrap a{
+    background-color: #000;;
+    color: white;
+    border-radius: 100px;
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.bottom-header {
+    float: left;
+    width: 100%;
+}
+.bottom-header ul {
+    float: left;
+    margin: 0%;
+
+}
+.bottom-header ul li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+.bottom-header ul li a{
+    padding: 20px 10px;
+    text-decoration: none;
+    color: black;
+
+}
+
+.contact {
+       float: right;
+    margin-top: 12px;
+
+}
+.contact p{
+    margin: 0%;
+}
+.main-banner {
+    float: left;
+    width: 100%;
+    min-height: 550px;
+    background-image: url(../imgs/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner_inner {
+    float: right;
+    background: #a25a00;
+    position: relative;
+    z-index: 11;
+    margin-top: 113px;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.banner_inner img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.banner_inner p {
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+.banner_inner p :nth-child(2){
+    padding-bottom: 0%;
+}
+   
+
+.banner_inner a {
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+}
+.Affordable_halls {
+    float: left;
+    width: 100%;
+}
+.Affordable_halls h1{
+    text-align: center;
+    font-weight: 100;
+    font-size: 47px;
+    padding-top: 10px;
+}
+.Affordable_halls .upperdivider {
+    display: block;
+    width: 30%;
+    margin: 0px 344px;
+}
+.Affordable_halls .left-Image{
+    float: left;
+    width: 30%;
+    
+}
+
+.left-Image img{
+    width: 100%;
+    height: 172px;
+}
+.Affordable_halls .right-text{
+    float: right;
+    width: 70%;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+.Affordable_halls .right-text p {
+    padding-bottom: 20px;
+}
+.Affordable_halls .right-text h3{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.Gallery {
+    float: left;
+    width: 100%;
+    background-image: url(../imgs/image.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.Gallery .container{
+    position: relative;
+}
+.Gallery::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #a25a00ad;
+}
+.Gallery h1{
+    text-align: center;
+    font-size: 47px;
+    font-weight: 100;
+    color: white;
+    padding-top: 20px;
+}
+.Gallery .upperdivider{
+        display: block;
+        width: 30%;
+        margin: 0px 344px;
+    }
+
+.Gallery ul {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+    
+}
+.Gallery ul li{
+    display: inline-block;
+    width: 20%;
+}
+.Gallery ul li img{
+    width: 100%;
+    vertical-align: bottom;
+}
+.Gallery ul li h4{
+        background-color: black;
+        color: white;
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+}
+.Gallery ul li a{
+    text-decoration: none;
+    display: block;
+    box-shadow: 2px 6px 7px #fff;
+}
+.Gallery .anchor{
+    float: left;
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+}
+.Gallery .anchor a{
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    padding: 10px 40px;
+    text-decoration: none;
+    display: inline-block;
+}
+.Service  {
+    float: left;
+    width: 100%;
+    background-color: #e3dcdc;
+}
+.Service h1 , .Reviews h1{
+    text-align: center;
+    font-weight: 100;
+    font-size: 47px;
+    padding-top: 10px;
+}
+.Service .upperdivider , .Reviews .upperdivider{
+    display: block;
+    width: 30%;
+    margin: 0px 344px;
+}
+.Service .upperdivider img {
+    padding-bottom: 25px;
+}
+.Service .Servicesoffered {
+    float: left;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.Service .services{
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+}
+.Service .services img{
+    
+    width: 100%;
+    vertical-align: bottom;
+}
+.Service .services a{
+    float: left;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+}
+
+.Reviews {
+    float: left;
+    width: 100%;
+}
+
+.Reviews .imagebottom {
+    float: left;
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    text-align: center;
+
+}
+.Reviews .imagebottom img 
+{
+    border-radius: 400%;
+    width: 10%;
+    height: 120px;
+}
+.Reviews p
+{
+    padding: 0 338px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    font-size: 13px;
+}
+.Reviews h4 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.Information{
+    float: left;
+    width: 100%;
+    background-color: #a25a00;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+.Information .informations{
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+}
+.Information .informations h1{
+    font-size: 20px;
+    padding-top: 9px;
+    padding-bottom: 5px;
+    /* font-style: italic; */
+    font-weight: bold;
+    /* text-shadow: 1px 1px 1px #ffff; */
+    text-transform: uppercase;
+    /* letter-spacing: 2px; */
+    margin-bottom: 10px;
+}
+
+.informations:nth-child(2)
+{
+    padding-top: 43px;
+}
+.Information .informations ul {
+    color: white;
+}
+.Information .informations ul li{
+    margin-bottom: 5px;
+
+}
+.Information .informations ul .contacts{
+ margin-bottom: 10px;   
+}
+.Information .informations ul li a{
+    text-decoration: none;
+    color: #ffffffbd;
+}
+.Information .informations:nth-child(3) a
+{
+    color: #ff8e00;
+    font-size: 18px;
+    padding-left: 5px;
+    padding: 7px;
+    background: #fff;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.main-footer {
+    float: left;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #220303;
+}
+.main-footer .left-footer {
+    float: left;
+}
+.main-footer .left-footer p {
+    color: white;
+}
+.main-footer .right-footer {
+    float: right;
+}
+.main-footer .right-footer p {
+    color: white;
+}
